@@ -1,4 +1,5 @@
-# potato_prediction_deepLearning
+#Potato Disease Classification
+
 
 prediction potato disease deep learning model with Tensorflow and keras
 
@@ -30,14 +31,19 @@ AI model for prediction potato disease web app (Tensorflow , fastAPI , python)
 ![predict web page](/images/Lateblight/777.JPG) 
 
 # how run model 😎
-- Download All Requirements
-- run 'python main.py' in cmd
-- http://127.0.0.1:8000 open in your browser
-- upload picture in imagese folder
-- and get predition 😎😉
+- Download All Requirements.
+- run 'python main.py' in cmd.
+- http://127.0.0.1:8000 open in your browser.
+- upload picture in imagese folder.
+- and get predition 😎😉.
 
 
 # RUN ipynb IN COLAB
-- go to google colab website
-- upload ipynb file 
+- download dataset from https://www.kaggle.com/datasets/arjuntejaswi/plant-village
+- Only keep folders related to Potatoes.
+- Run Jupyter Notebook in Browser.
+- Open potato-disease-training.ipynb in Jupyter Notebook.
+- In cell #2, update the path to dataset.
+- Run all the Cells one by one.
+
 - run
