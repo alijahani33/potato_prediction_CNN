@@ -38,7 +38,7 @@ AI model for prediction potato disease web app (Tensorflow , fastAPI , python)
 - and get predition 😎😉.
 
 
-# RUN ipynb IN COLAB
+# RUN ipynb IN Jupyter Notebook
 - download dataset from https://www.kaggle.com/datasets/arjuntejaswi/plant-village
 - Only keep folders related to Potatoes.
 - Run Jupyter Notebook in Browser.
