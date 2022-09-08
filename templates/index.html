@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Potato</title>
+  </head>
+  <body>
+    <form action="/predict" method="post" id="form">
+      <input type="file" id="file" accept=".jpg,.png,.jpeg" />
+      <input type="submit" value="Predict" />
+    </form>
+    <div id="res"></div>
+  </body>
+  <script>
+    let form = document.getElementById("form");
+    let input = document.getElementById("file");
+    let responseDiv = document.getElementById("res");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      var data = new FormData();
+      data.append("file", input.files[0]);
+
+      fetch("/predict", {
+        method: "POST",
+        body: data,
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          responseDiv.innerHTML = `class: ${data.class}, confidence: ${data.confidence}`;
+        });
+    });
+  </script>
+</html>
