@@ -24,10 +24,10 @@ AI model for prediction potato disease web app (Tensorflow , fastAPI , python)
 ![predict web page](/images/Early_blight/555.JPG) 
 
 - Healthy 
-![predict web page](/images/Early_blight/666.JPG) 
+![predict web page](/images/Healthy/666.JPG) 
 
 - Lateblight 
-![predict web page](/images/Early_blight/777.JPG) 
+![predict web page](/images/Lateblight/777.JPG) 
 
 # how run model 😎
 - Download All Requirements
