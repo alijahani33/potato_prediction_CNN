@@ -11,9 +11,9 @@ AI model for prediction potato disease web app (Tensorflow , fastAPI , python)
 - html , css , bootstrap
 - FastAPI
 
-# model predict web page 🤩
+# model predict web page 
 - 1 input
-- 1 output 😎
+- 1 output 
 
 ![predict web page](/images/11.png)  
  
@@ -30,12 +30,12 @@ AI model for prediction potato disease web app (Tensorflow , fastAPI , python)
 - Lateblight 
 ![predict web page](/images/Lateblight/777.JPG) 
 
-# how run model 😎
+# how run model 
 - Download All Requirements.
 - run 'python main.py' in cmd.
 - http://127.0.0.1:8000 open in your browser.
 - upload picture in imagese folder.
-- and get predition 😎😉.
+- and get predition.
 
 
 # RUN ipynb IN Jupyter Notebook
